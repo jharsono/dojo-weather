@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../http.service';
+
 @Component({
-  selector: 'app-san-jose',
-  templateUrl: './san-jose.component.html',
-  styleUrls: ['./san-jose.component.css']
+  selector: 'app-chicago',
+  templateUrl: './chicago.component.html',
+  styleUrls: ['./chicago.component.css']
 })
-export class SanJoseComponent implements OnInit {
-  zipcode = 95112;
+export class ChicagoComponent implements OnInit {
+  zipcode = 60610;
   weather: any;
 
   constructor(private _httpService: HttpService){ }
